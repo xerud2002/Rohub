@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <>
       {/* Top Bar with Contact Info */}
-      <div className="bg-primary text-white py-2 text-sm">
+      <div className="bg-primary-600 text-white py-2 text-sm">
         <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-2">
           <div className="flex items-center gap-2 sm:gap-4 flex-wrap justify-center">
             <a href="tel:+441707659955" className="flex items-center gap-1 sm:gap-2 hover:text-gray-200 transition text-xs sm:text-sm">
@@ -50,7 +50,7 @@ export default function Navbar() {
       </div>
       
       {/* Main Navigation */}
-      <header className="bg-white sticky top-0 z-40 shadow-sm">
+      <header className="bg-white sticky top-0 z-40 shadow-lg border-b border-gray-200">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image 
@@ -62,22 +62,22 @@ export default function Navbar() {
             priority
           />
         </Link>
-        <nav className="hidden md:flex gap-6 items-center">
-          <Link href="/services" className="hover:text-primary">{t('nav.services')}</Link>
-          <Link href="/about" className="hover:text-primary">{t('nav.about')}</Link>
-          <Link href="/pricing" className="hover:text-primary">{t('nav.pricing')}</Link>
+        <nav className="hidden md:flex gap-6 items-center text-gray-700">
+          <Link href="/services" className="hover:text-primary-600 transition-colors font-semibold">{t('nav.services')}</Link>
+          <Link href="/about" className="hover:text-primary-600 transition-colors font-semibold">{t('nav.about')}</Link>
+          <Link href="/pricing" className="hover:text-primary-600 transition-colors font-semibold">{t('nav.pricing')}</Link>
           <LanguageSwitcher />
-          <Link href="/contact" className="bg-primary text-white px-4 py-2 rounded">{t('nav.getQuote')}</Link>
+          <Link href="/contact" className="bg-primary-500 hover:bg-primary-600 text-white px-6 py-2.5 rounded-lg shadow-lg transition-all font-semibold">{t('nav.getQuote')}</Link>
         </nav>
-        <button className="md:hidden text-2xl" onClick={() => setOpen(!open)} aria-label="menu">
+        <button className="md:hidden text-2xl text-gray-700 hover:text-primary-600 transition-colors" onClick={() => setOpen(!open)} aria-label="menu">
           {open ? <FiX /> : <FiMenu />}
         </button>
       </div>
       {open && (
-        <div className="md:hidden bg-white px-4 pb-4">
-          <Link href="/services" className="block py-2">{t('nav.services')}</Link>
-          <Link href="/about" className="block py-2">{t('nav.about')}</Link>
-          <Link href="/pricing" className="block py-2">{t('nav.pricing')}</Link>
+        <div className="md:hidden bg-white px-4 pb-4 border-t border-gray-200">
+          <Link href="/services" className="block py-2 text-gray-700 hover:text-primary-600 transition-colors font-semibold">{t('nav.services')}</Link>
+          <Link href="/about" className="block py-2 text-gray-700 hover:text-primary-600 transition-colors font-semibold">{t('nav.about')}</Link>
+          <Link href="/pricing" className="block py-2 text-gray-700 hover:text-primary-600 transition-colors font-semibold">{t('nav.pricing')}</Link>
           <div className="py-2">
             <LanguageSwitcher />
           </div>

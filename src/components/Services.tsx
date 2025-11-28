@@ -75,12 +75,12 @@ export default function Services() {
   ]
 
   return (
-    <section id="services" className="py-16 bg-white">
+    <section id="services" className="py-16 bg-gray-900">
       <div className="max-w-6xl mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">{t('services.title')}</h2>
-          <p className="text-gray-600 mt-4 max-w-2xl mx-auto">{t('services.subtitle')}</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-white">{t('services.title')}</h2>
+          <p className="text-gray-300 mt-4 max-w-2xl mx-auto">{t('services.subtitle')}</p>
         </div>
 
         {/* Services Grid */}
@@ -88,7 +88,7 @@ export default function Services() {
           {services.map((service) => (
             <div
               key={service.id}
-              className="group bg-white border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+              className="group bg-gray-800 border border-gray-700 rounded-xl p-6 hover:shadow-2xl hover:shadow-primary-500/20 transition-all duration-300 hover:-translate-y-1"
             >
               {/* Icon */}
               <div className={`inline-flex p-3 rounded-lg bg-gradient-to-br ${service.color} text-white mb-4`}>
@@ -96,19 +96,19 @@ export default function Services() {
               </div>
 
               {/* Title */}
-              <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary transition-colors">
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary-400 transition-colors">
                 {service.title}
               </h3>
 
               {/* Summary */}
-              <p className="text-sm text-gray-600 leading-relaxed mb-4">
+              <p className="text-sm text-gray-300 leading-relaxed mb-4">
                 {service.summary}
               </p>
 
               {/* Learn More Link */}
               <Link
                 href={`/services/${service.id}`}
-                className="inline-flex items-center text-primary font-medium text-sm hover:underline"
+                className="inline-flex items-center text-primary-400 font-medium text-sm hover:text-primary-300 transition-colors"
               >
                 Learn more →
               </Link>
@@ -120,7 +120,7 @@ export default function Services() {
         <div className="mt-12 text-center">
           <Link
             href="/contact"
-            className="inline-block bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl"
+            className="inline-block bg-primary-500 hover:bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold transition-all shadow-lg shadow-primary-500/30 hover:shadow-primary-500/50"
           >
             {t('hero.ctaPrimary')}
           </Link>

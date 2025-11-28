@@ -15,9 +15,9 @@ export default function Home() {
       <Hero />
       <Services />
       <AboutSection />
-      <section className="py-12">
+      <section className="py-12 bg-gray-900">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl font-bold">{t('contact.title')}</h2>
+          <h2 className="text-2xl font-bold text-white">{t('contact.title')}</h2>
           <div className="mt-6 grid md:grid-cols-2 gap-8">
             <div>
               <ContactForm />

@@ -12,11 +12,11 @@ export default function LanguageSwitcher() {
 
   return (
     <div className="flex items-center gap-2">
-      <FiGlobe className="text-gray-600" />
+      <FiGlobe className="text-gray-700" />
       <select
         value={router.locale}
         onChange={(e) => changeLanguage(e.target.value)}
-        className="text-sm border rounded px-2 py-1 cursor-pointer bg-white"
+        className="text-sm border border-gray-300 rounded px-3 py-1.5 cursor-pointer bg-white text-gray-700 hover:border-primary-500 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
         aria-label="Change language"
       >
         <option value="ro">{t('languageSwitcher.romanian')}</option>
