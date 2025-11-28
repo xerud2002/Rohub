@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { useTranslation } from 'next-i18next'
 import { FiPhone, FiMail } from 'react-icons/fi'
 
@@ -53,13 +54,15 @@ export default function Hero() {
 
           {/* Right Column - Image/Visual */}
           <div className="relative">
-            <div className="relative w-full h-80 md:h-96 bg-gradient-to-br from-primary/20 to-primary/5 rounded-2xl shadow-2xl overflow-hidden">
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-400 p-8 text-center">
-                <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-lg">
-                  <p className="text-sm font-medium text-gray-700">📸 Hero Image</p>
-                  <p className="text-xs mt-2 text-gray-500">Add hero-office.jpg to<br />public/images/</p>
-                </div>
-              </div>
+            <div className="relative w-full rounded-2xl shadow-2xl overflow-hidden bg-gray-50">
+              <Image 
+                src="/images/office-hero.png" 
+                alt="RoHub - Consiliere juridică pentru românii din UK"
+                width={800}
+                height={600}
+                className="w-full h-auto rounded-2xl"
+                priority
+              />
             </div>
             
             {/* Trust Badges */}
