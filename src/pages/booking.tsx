@@ -19,7 +19,6 @@ export default function BookingPage() {
         theme: 'light',
         styles: { branding: { brandColor: '#0f766e' } },
         hideEventTypeDetails: false,
-        hideBranding: true,
       })
     })()
   }, [])
