@@ -19,6 +19,7 @@ export default function BookingPage() {
         theme: 'light',
         styles: { branding: { brandColor: '#0f766e' } },
         hideEventTypeDetails: false,
+        hideBranding: true,
       })
     })()
   }, [])
@@ -81,7 +82,7 @@ export default function BookingPage() {
                       ✕
                     </button>
                     <Cal
-                      calLink="ciprian-rotopanescu-ery78b/consultanta-la-birou"
+                      calLink="ciprian-rotopanescu-ary7z8/consultanta-la-birou"
                       style={{ width: '100%', height: '600px' }}
                       config={{ 
                         layout: 'month_view',
@@ -133,7 +134,7 @@ export default function BookingPage() {
                       ✕
                     </button>
                     <Cal
-                      calLink="ciprian-rotopanescu-ery78b/consultanta-online"
+                      calLink="ciprian-rotopanescu-ary7z8/consultanta-online"
                       style={{ width: '100%', height: '600px' }}
                       config={{ 
                         layout: 'month_view',
