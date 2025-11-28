@@ -1,0 +1,12 @@
+# Placeholder Image
+
+Replace this file with your actual hero office photo.
+
+**Recommended specs:**
+- Format: JPG or WebP
+- Size: 1200x800px (3:2 aspect ratio)
+- File size: < 200KB (optimized)
+- Content: RoHub team or professional office environment
+
+**Alt text (already in Hero.tsx):**
+"RoHub legal advice team"

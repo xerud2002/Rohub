@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "services": "Servicii",
+    "about": "Despre",
+    "pricing": "Prețuri",
+    "contact": "Contact",
+    "getQuote": "Solicită o Cotație"
+  },
+  "hero": {
+    "title": "Consiliere juridică și suport profesional pentru românii din UK",
+    "subtitle": "Asistență completă în drept civil, probleme cu proprietari, dispute de consum, suport în instanță și mult mai mult. Vorbim limba ta!",
+    "ctaPrimary": "Programare Consultanță",
+    "ctaSecondary": "Vezi Serviciile",
+    "phone": "Sună-ne Acum"
+  },
+  "services": {
+    "title": "Serviciile Noastre",
+    "subtitle": "Asigurăm servicii potrivite nevoilor dumneavoastră - Legal Advisor (Unregulated) - Non-Reserved Legal Services",
+    "consumerRights": {
+      "title": "Drepturi Consumatori & Drept Civil",
+      "summary": "Respingere vehicul (30 zile, 6 luni), Redactare scrisori înainte de acțiune, Dispute finanțare vehicule, Reclamații garanție, Vicii ascunse, Ghid Money Claim Online (MCOL), Scrisori dispută datorii",
+      "details": [
+        "Respingere vehicul (drepturi 30 zile și 6 luni)",
+        "Redactare scrisori înainte de acțiune juridică",
+        "Dispute privind finanțarea vehiculelor",
+        "Dispute privind garanțiile",
+        "Vicii ascunse / declarații false",
+        "Îndrumare Money Claim Online (MCOL)",
+        "Scrisori de dispută datorii",
+        "Escaladare reclamații (pregătire Ombudsman)"
+      ]
+    },
+    "housing": {
+      "title": "Imobiliare & Chiriaș/Proprietar",
+      "summary": "Scrisori dispută depozit, Explicații Secțiunea 21/8, Obligații reparații, Reclamații mucegai/umiditate, Apeluri locuințe consiliu, Acorduri restanțe chirie",
+      "details": [
+        "Scrisori de dispută pentru depozit",
+        "Explicații Secțiunea 21 / Secțiunea 8",
+        "Obligații de reparații",
+        "Reclamații mucegai/umiditate",
+        "Apeluri pentru locuințe de la consiliu",
+        "Acorduri privind restanțele de chirie",
+        "Asistență redactare scrisori către proprietari/agenți"
+      ]
+    },
+    "courtSupport": {
+      "title": "Asistență Judiciară (McKenzie Friend)",
+      "summary": "Însoțire în instanță, Organizare acte, Pregătire caz, Pregătire dosare, Declarații ale martorilor, Îndrumare proceduri judiciare generale",
+      "details": [
+        "Însoțire client în instanță",
+        "Luare de notițe și organizare acte",
+        "Pregătire caz",
+        "Pregătire dosare (bundle preparation)",
+        "Declarații ale martorilor",
+        "Îndrumare proceduri judiciare generale"
+      ],
+      "note": "Fără drepturi de audiere decât dacă sunt acordate de judecător"
+    },
+    "bailiff": {
+      "title": "Asistență Executori Judecătorești",
+      "summary": "Evaluări vulnerabilitate, Cereri mandate/notificări, Contestații la executare ilegală, Informații executare taxe consiliu, Pregătire plângeri către consiliu",
+      "details": [
+        "Evaluări vulnerabilitate și scrisori",
+        "Cereri pentru mandate/notificări",
+        "Contestații la executare ilegală",
+        "Informații executare taxe consiliu",
+        "Pregătire plângeri către consiliu",
+        "Ghid DVLA pentru blocare/deblocare vehicul",
+        "Asistență în relația cu agenții de executare"
+      ]
+    },
+    "immigration": {
+      "title": "Imigrație (Numai Informații Generale)",
+      "summary": "Îndrumare EU Settlement Scheme, Liste de verificare documente, Explicații aplicații târzii, Redactare corespondență, Suport revizuire administrativă",
+      "details": [
+        "Îndrumare EU Settlement Scheme",
+        "Liste de verificare documente",
+        "Explicații pentru aplicații târzii",
+        "Redactare corespondență",
+        "Suport revizuire administrativă",
+        "Scrisori de verificare status",
+        "Informații despre documente de călătorie"
+      ],
+      "note": "Nu este consiliere reglementată OISC"
+    },
+    "government": {
+      "title": "HMRC, DWP & Probleme Guvernamentale",
+      "summary": "Redactare plângeri, Scrisori dispută plăți în plus, Suport reconsiderare obligatorie, Întrebări datorii HMRC, Informații rambursări taxe",
+      "details": [
+        "Redactare plângeri",
+        "Scrisori de dispută pentru plăți în plus",
+        "Suport pentru reconsiderare obligatorie",
+        "Întrebări privind datoriile HMRC",
+        "Informații despre rambursări de taxe",
+        "Declarații de vulnerabilitate",
+        "Scrisori de explicație pentru plăți în plus frauduloase"
+      ]
+    },
+    "compliance": {
+      "title": "Conformitate & Suport Reglementare",
+      "summary": "Îndrumare GDPR, Politici de confidențialitate, Redactare politici companie, Template-uri risc și conformitate, Scrisori anti-fraudă",
+      "details": [
+        "Îndrumare GDPR",
+        "Politici de confidențialitate",
+        "Redactare politici companie",
+        "Template-uri risc și conformitate",
+        "Scrisori anti-fraudă",
+        "Revizuire contracte (zone ne-rezervate)"
+      ]
+    },
+    "business": {
+      "title": "Suport Business",
+      "summary": "Redactare Termeni și Condiții, Politici de rambursare, Scrisori disciplinare personal, Scrisori recuperare datorii, Reclamații comerciale",
+      "details": [
+        "Redactare Termeni și Condiții",
+        "Politici de rambursare/nerambursare",
+        "Scrisori disciplinare pentru personal",
+        "Scrisori de recuperare datorii",
+        "Reclamații comerciale",
+        "Dispute cu furnizori"
+      ]
+    },
+    "documentation": {
+      "title": "Servicii de Documentare",
+      "summary": "Redactare scrisori, Declarații de fapt, Declarații martori, Scrisori de însoțire, Template-uri profesionale, Formatare PDF",
+      "details": [
+        "Redactare scrisori",
+        "Declarații de fapt",
+        "Declarații ale martorilor",
+        "Scrisori de însoțire",
+        "Template-uri profesionale",
+        "Formatare PDF",
+        "Îndrumare aplicații (N244, MCOL, formulare DVLA, etc.)"
+      ]
+    }
+  },
+  "about": {
+    "title": "Despre RoHub",
+    "description": "RoHub oferă consiliere juridică și suport profesional pentru românii din UK. Vorbim limba ta și înțelegem provocările cu care te confrunți. Oferim servicii juridice ne-rezervate, documentare și asistență judiciară cu accent pe claritate, accesibilitate și profesionalism.",
+    "point1": "Consiliere clară în limba română pentru drept civil și consumatori",
+    "point2": "Asistență judiciară practică (McKenzie Friend) în instanțele din UK",
+    "point3": "Colaboratori de încredere: Solicitors, Barristers și specialiști pentru cazuri complexe",
+    "whyChooseUs": "DE CE SĂ NE ALEGEȚI",
+    "teamTitle": "Echipa Noastră",
+    "partnersTitle": "Colaboratorii Noștri"
+  },
+  "pricing": {
+    "title": "Prețurile Noastre",
+    "subtitle": "Tarife transparente și competitive pentru servicii juridice de calitate",
+    "hourlyRates": {
+      "title": "Tarife Orare",
+      "legalConsultancy": "Consultanță Juridică: £100 - £170/oră",
+      "mckenzieFriend": "McKenzie Friend: £100 - £180/oră",
+      "compliance": "Lucru Conformitate: £60 - £150/oră"
+    },
+    "feeServices": {
+      "title": "Servicii cu Tarif Fix",
+      "letterBeforeAction": "Scrisoare înainte de acțiune: £100 - £170",
+      "vehicleRejection": "Scrisoare respingere vehicul: £150",
+      "complaint": "Scrisoare de reclamație: £160",
+      "vulnerability": "Scrisoare vulnerabilitate: £50 - £90",
+      "witnessStatement": "Declarație martor: £60 - £150"
+    },
+    "courtSupport": {
+      "title": "Asistență Judiciară",
+      "halfDay": "Jumătate de zi (până la 3h): £600",
+      "fullDay": "Zi întreagă: £1800",
+      "casePreparation": "Pregătire caz: de la £800"
+    },
+    "subscription": {
+      "title": "Abonament Lunar",
+      "includes": "Abonamentul conține:",
+      "benefit1": "Acces nelimitat la consultanță juridică online în timpul programului de lucru",
+      "benefit2": "Suport complet în pregătirea și redactarea documentelor",
+      "benefit3": "Consultanță juridică gratuită și nelimitată",
+      "benefit4": "Acces nelimitat la birou, între orele 9:00 – 18:00",
+      "benefit5": "O consultanță lunară cu un Solicitor",
+      "benefit6": "O consultanță lunară cu un Barrister",
+      "benefit7": "Acces gratuit la comunitatea RoHub pe WhatsApp"
+    }
+  },
+  "contact": {
+    "title": "Contactați-ne",
+    "subtitle": "Completați formularul și vă vom răspunde în 48 de ore.",
+    "pageTitle": "Contactează-ne",
+    "pageSubtitle": "AI NEVOIE DE AJUTOR? SUNĂ-NE ACUM ȘI ÎȚI VOM OFERI SOLUȚIILE DE CARE AI NEVOIE!",
+    "metaTitle": "Contact - RoHub",
+    "bookOffice": "Programări la Birou",
+    "onlineConsultation": "Consultanță Online",
+    "consultationNote": "*Consultanța online este nerambursabilă!",
+    "form": {
+      "name": "Nume complet",
+      "email": "Email",
+      "message": "Mesaj",
+      "submit": "Trimite mesajul",
+      "sending": "Se trimite…",
+      "success": "Mesaj trimis — vă vom răspunde în 24-48 de ore.",
+      "error": "A apărut o problemă la trimiterea mesajului. Vă rugăm să ne contactați direct la info@rohub.co.uk"
+    }
+  },
+  "footer": {
+    "tagline": "Consiliere juridică practică pentru persoane fizice și afaceri mici.",
+    "services": "Servicii",
+    "contact": "Contact",
+    "phone": "Telefon",
+    "email": "Email",
+    "consumerRights": "Drepturi Consumatori",
+    "housing": "Imobiliare",
+    "courtSupport": "Asistență Judiciară",
+    "copyright": "Toate drepturile rezervate."
+  },
+  "testimonials": {
+    "title": "Mărturii"
+  },
+  "languageSwitcher": {
+    "romanian": "Română",
+    "english": "English"
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "consumer-rights",
+    "title": "Consumer Rights & Civil Law",
+    "summary": "Vehicle rejection, warranty & finance disputes, pre-action letters and MCOL guidance.",
+    "link": "/services/consumer-rights"
+  },
+  {
+    "id": "housing",
+    "title": "Housing & Landlord/Tenant",
+    "summary": "Deposit disputes, Section 21/8 guidance, repairs and tenancy issues.",
+    "link": "/services/housing"
+  },
+  {
+    "id": "court-support",
+    "title": "Court Support (McKenzie Friend)",
+    "summary": "Court attendance support, bundle preparation and witness statements.",
+    "link": "/services/court-support"
+  }
+]

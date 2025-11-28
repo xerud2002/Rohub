@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
+  },
+  "hero": {
+    "title": "Legal advice and professional support for Romanians in the UK",
+    "subtitle": "Complete assistance in civil law, landlord issues, consumer disputes, court support and much more. We speak your language!",
+    "ctaPrimary": "Book Consultation",
+    "ctaSecondary": "View Services",
+    "phone": "Call Us Now"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We provide services tailored to your needs - Legal Advisor (Unregulated) - Non-Reserved Legal Services",
+    "consumerRights": {
+      "title": "Consumer Rights & Civil Law",
+      "summary": "Vehicle rejection (30-day, 6-month rights), Letters before action, Vehicle finance disputes, Warranty claims, Hidden faults, Money Claim Online (MCOL) guidance, Debt dispute letters",
+      "details": [
+        "Vehicle rejection (30-day and 6-month rights)",
+        "Drafting letters before legal action",
+        "Vehicle finance disputes",
+        "Warranty claim disputes",
+        "Hidden faults / misrepresentation",
+        "Money Claim Online (MCOL) guidance",
+        "Debt dispute letters",
+        "Complaint escalation (Ombudsman preparation)"
+      ]
+    },
+    "housing": {
+      "title": "Housing & Landlord/Tenant",
+      "summary": "Deposit dispute letters, Section 21/8 explanation, Repair obligations, Mould/damp complaints, Council housing appeals, Rent arrears agreements",
+      "details": [
+        "Deposit dispute letters",
+        "Section 21 / Section 8 explanation",
+        "Repair obligations",
+        "Mould/damp complaints",
+        "Council housing appeals",
+        "Rent arrears agreements",
+        "Support drafting letters to landlords/agents"
+      ]
+    },
+    "courtSupport": {
+      "title": "Court Support (McKenzie Friend)",
+      "summary": "Attending court, Organizing paperwork, Case preparation, Bundle preparation, Witness statements, General court procedure guidance",
+      "details": [
+        "Attending court with the client",
+        "Note-taking & paperwork organisation",
+        "Case preparation",
+        "Bundle preparation",
+        "Witness statements",
+        "General court procedure guidance"
+      ],
+      "note": "No rights of audience unless granted by the judge"
+    },
+    "bailiff": {
+      "title": "Bailiff & Enforcement Support",
+      "summary": "Vulnerability assessments, Requests for warrants/notices, Challenges to unlawful enforcement, Council tax enforcement info, Complaint preparation",
+      "details": [
+        "Vulnerability assessments & letters",
+        "Requests for warrants / notices",
+        "Challenges to unlawful enforcement",
+        "Council tax enforcement information",
+        "Preparation of complaints to the council",
+        "DVLA clamp/release guidance",
+        "Support dealing with enforcement agents"
+      ]
+    },
+    "immigration": {
+      "title": "Immigration (General Information Only)",
+      "summary": "EU Settlement Scheme guidance, Document checklists, Late application explanations, Correspondence drafting, Administrative review support",
+      "details": [
+        "EU Settlement Scheme guidance",
+        "Document checklists",
+        "Late application explanations",
+        "Correspondence drafting",
+        "Administrative review support",
+        "Status verification letters",
+        "Travel document information"
+      ],
+      "note": "Not OISC-regulated advice"
+    },
+    "government": {
+      "title": "HMRC, DWP & Government Matters",
+      "summary": "Complaints drafting, Overpayment dispute letters, Mandatory reconsideration support, HMRC debt queries, Tax refund information",
+      "details": [
+        "Complaints drafting",
+        "Overpayment dispute letters",
+        "Mandatory reconsideration support",
+        "HMRC debt queries",
+        "Tax refund information",
+        "Vulnerability declarations",
+        "Fraud overpayment explanation letters"
+      ]
+    },
+    "compliance": {
+      "title": "Compliance & Regulatory Support",
+      "summary": "GDPR guidance, Privacy notices, Company policy drafting, Risk & compliance templates, Anti-fraud letters",
+      "details": [
+        "GDPR guidance",
+        "Privacy notices",
+        "Company policy drafting",
+        "Risk & compliance templates",
+        "Anti-fraud letters",
+        "Contract review (non-reserved areas)"
+      ]
+    },
+    "business": {
+      "title": "Business Support",
+      "summary": "Terms & Conditions drafting, Refund/No-refund policies, Staff disciplinary letters, Debt recovery letters, Commercial complaints",
+      "details": [
+        "Terms & Conditions drafting",
+        "Refund/No-refund policies",
+        "Staff disciplinary letters",
+        "Debt recovery letters",
+        "Commercial complaints",
+        "Supplier disputes"
+      ]
+    },
+    "documentation": {
+      "title": "Documentation Services",
+      "summary": "Letter drafting, Statements of fact, Witness statements, Cover letters, Professional templates, PDF formatting",
+      "details": [
+        "Letter drafting",
+        "Statements of fact",
+        "Witness statements",
+        "Cover letters",
+        "Professional templates",
+        "PDF formatting",
+        "Application guidance (N244, MCOL, DVLA forms, etc.)"
+      ]
+    }
+  },
+  "pricing": {
+    "title": "Our Prices",
+    "subtitle": "Transparent and competitive rates for quality legal services",
+    "hourlyRates": {
+      "title": "Hourly Rates",
+      "legalConsultancy": "Legal Consultancy: £100 - £170/hour",
+      "mckenzieFriend": "McKenzie Friend: £100 - £180/hour",
+      "compliance": "Compliance Work: £60 - £150/hour"
+    },
+    "feeServices": {
+      "title": "Fixed Fee Services",
+      "letterBeforeAction": "Letter before action: £100 - £170",
+      "vehicleRejection": "Vehicle rejection letter: £150",
+      "complaint": "Complaint letter: £160",
+      "vulnerability": "Vulnerability letter: £50 - £90",
+      "witnessStatement": "Witness statement: £60 - £150"
+    },
+    "courtSupport": {
+      "title": "Court Support",
+      "halfDay": "Half-day (up to 3h): £600",
+      "fullDay": "Full-day: £1800",
+      "casePreparation": "Case preparation: from £800"
+    },
+    "subscription": {
+      "title": "Monthly Subscription",
+      "includes": "Subscription includes:",
+      "benefit1": "Unlimited access to online legal consultation during working hours",
+      "benefit2": "Complete support in preparing and drafting documents",
+      "benefit3": "Free and unlimited legal consultation",
+      "benefit4": "Unlimited office access, between 9:00 - 18:00",
+      "benefit5": "One monthly consultation with a Solicitor",
+      "benefit6": "One monthly consultation with a Barrister",
+      "benefit7": "Free access to RoHub community on WhatsApp"
+    }
+  },
+  "about": {
+    "title": "About RoHub",
+    "description": "RoHub provides legal advice and professional support for Romanians in the UK. We speak your language and understand the challenges you face. We offer non-reserved legal services, documentation and court support with focus on clarity, accessibility and professionalism.",
+    "point1": "Clear advice in Romanian for civil and consumer law",
+    "point2": "Practical court support (McKenzie Friend) in UK courts",
+    "point3": "Trusted partners: Solicitors, Barristers and specialists for complex cases",
+    "whyChooseUs": "WHY CHOOSE US",
+    "teamTitle": "Our Team",
+    "partnersTitle": "Our Partners"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Complete the form and we'll get back to you within 48 hours.",
+    "pageTitle": "Get in Touch",
+    "pageSubtitle": "NEED HELP? CALL US NOW AND WE'LL PROVIDE THE SOLUTIONS YOU NEED!",
+    "metaTitle": "Contact - RoHub",
+    "bookOffice": "Office Appointments",
+    "onlineConsultation": "Online Consultation",
+    "consultationNote": "*Online consultation is non-refundable!",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "success": "Message sent — we will reply within 24-48 hours.",
+      "error": "There was a problem sending your message. Please email us at info@rohub.co.uk"
+    }
+  },
+  "footer": {
+    "tagline": "Practical legal advice for individuals and small businesses.",
+    "services": "Services",
+    "contact": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "consumerRights": "Consumer Rights",
+    "housing": "Housing",
+    "courtSupport": "Court Support",
+    "copyright": "All rights reserved."
+  },
+  "testimonials": {
+    "title": "Testimonials"
+  },
+  "languageSwitcher": {
+    "romanian": "Română",
+    "english": "English"
+  }
+}

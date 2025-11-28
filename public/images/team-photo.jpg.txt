@@ -1,0 +1,12 @@
+# Placeholder Image
+
+Replace this file with your actual team photo.
+
+**Recommended specs:**
+- Format: JPG or WebP
+- Size: 800x520px
+- File size: < 150KB (optimized)
+- Content: RoHub team members
+
+**Alt text (already in AboutSection.tsx):**
+"RoHub team"
