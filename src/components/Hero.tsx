@@ -25,13 +25,13 @@ export default function Hero() {
             {/* CTAs */}
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Link 
-                href="/contact" 
+                href="/booking" 
                 className="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg font-semibold text-center transition-all shadow-lg hover:shadow-xl"
               >
                 {t('hero.ctaPrimary')}
               </Link>
               <Link 
-                href="tel:+441234567890" 
+                href="tel:+441707659955" 
                 className="border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-4 rounded-lg font-semibold text-center transition-all flex items-center justify-center gap-2"
               >
                 <FiPhone className="text-xl" />
@@ -43,11 +43,11 @@ export default function Hero() {
             <div className="mt-8 flex flex-col sm:flex-row gap-6 text-sm text-gray-600">
               <div className="flex items-center gap-2">
                 <FiPhone className="text-primary" />
-                <span>+44 1234 567890</span>
+                <span>01707 659955</span>
               </div>
               <div className="flex items-center gap-2">
                 <FiMail className="text-primary" />
-                <span>info@rohub.co.uk</span>
+                <span>office@acteinuk.com</span>
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import { useTranslation } from 'next-i18next'
+import { FiMapPin, FiPhone, FiMail } from 'react-icons/fi'
 
 export default function Footer() {
   const { t } = useTranslation('common')
@@ -20,8 +21,23 @@ export default function Footer() {
         </div>
         <div>
           <h5 className="font-semibold">{t('footer.contact')}</h5>
-          <p className="text-sm mt-2">{t('footer.phone')}: +44 1234 567890</p>
-          <p className="text-sm">{t('footer.email')}: info@rohub.co.uk</p>
+          <div className="mt-2 space-y-2 text-sm">
+            <div className="flex items-start gap-2">
+              <FiMapPin className="text-primary mt-1 flex-shrink-0" />
+              <div>
+                <p>Unit 1 Hollies Way, High St</p>
+                <p>Potters Bar EN6 5BH</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <FiPhone className="text-primary" />
+              <a href="tel:+441707659955" className="hover:text-white transition">01707 659955</a>
+            </div>
+            <div className="flex items-center gap-2">
+              <FiMail className="text-primary" />
+              <a href="mailto:office@acteinuk.com" className="hover:text-white transition">office@acteinuk.com</a>
+            </div>
+          </div>
         </div>
       </div>
       <div className="border-t border-gray-800 mt-8 pt-6 text-sm text-center">

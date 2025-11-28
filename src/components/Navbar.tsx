@@ -1,17 +1,67 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
-import { FiMenu, FiX } from 'react-icons/fi'
+import { FiMenu, FiX, FiPhone, FiMail } from 'react-icons/fi'
 import { useTranslation } from 'next-i18next'
 import LanguageSwitcher from './LanguageSwitcher'
+import { SiTiktok } from 'react-icons/si'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
   const { t } = useTranslation('common')
 
   return (
-    <header className="bg-white sticky top-0 z-40 shadow-sm">
+    <>
+      {/* Top Bar with Contact Info */}
+      <div className="bg-primary text-white py-2 text-sm">
+        <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-2">
+          <div className="flex items-center gap-2 sm:gap-4 flex-wrap justify-center">
+            <a href="tel:+441707659955" className="flex items-center gap-1 sm:gap-2 hover:text-gray-200 transition text-xs sm:text-sm">
+              <FiPhone className="text-sm sm:text-base" />
+              <span>01707 659955</span>
+            </a>
+            <a href="mailto:office@acteinuk.com" className="flex items-center gap-1 sm:gap-2 hover:text-gray-200 transition text-xs sm:text-sm">
+              <FiMail className="text-sm sm:text-base" />
+              <span className="hidden sm:inline">office@acteinuk.com</span>
+              <span className="sm:hidden">Email</span>
+            </a>
+          </div>
+          <div className="flex items-center gap-3">
+            <a 
+              href="https://www.tiktok.com/@acteinuk.com8" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:text-gray-200 transition"
+              aria-label="TikTok RoHub"
+            >
+              <SiTiktok className="text-sm sm:text-base" />
+            </a>
+            <a 
+              href="https://www.tiktok.com/@acteinuk.com4" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:text-gray-200 transition"
+              aria-label="TikTok RoHub Alternative"
+            >
+              <SiTiktok className="text-sm sm:text-base" />
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      {/* Main Navigation */}
+      <header className="bg-white sticky top-0 z-40 shadow-sm">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-        <Link href="/" className="text-xl font-bold">RoHub</Link>
+        <Link href="/" className="flex items-center">
+          <Image 
+            src="/images/logo.png" 
+            alt="RoHub Logo" 
+            width={120} 
+            height={40}
+            className="h-8 sm:h-10 w-auto"
+            priority
+          />
+        </Link>
         <nav className="hidden md:flex gap-6 items-center">
           <Link href="/services" className="hover:text-primary">{t('nav.services')}</Link>
           <Link href="/about" className="hover:text-primary">{t('nav.about')}</Link>
@@ -19,7 +69,7 @@ export default function Navbar() {
           <LanguageSwitcher />
           <Link href="/contact" className="bg-primary text-white px-4 py-2 rounded">{t('nav.getQuote')}</Link>
         </nav>
-        <button className="md:hidden" onClick={() => setOpen(!open)} aria-label="menu">
+        <button className="md:hidden text-2xl" onClick={() => setOpen(!open)} aria-label="menu">
           {open ? <FiX /> : <FiMenu />}
         </button>
       </div>
@@ -35,5 +85,6 @@ export default function Navbar() {
         </div>
       )}
     </header>
+    </>
   )
 }

@@ -1,6 +1,9 @@
 import { useTranslation } from 'next-i18next'
 import Link from 'next/link'
-import { FiCheck, FiShield, FiHome, FiAlertCircle, FiFileText, FiUsers, FiBriefcase, FiEdit3, FiAward } from 'react-icons/fi'
+import { FiCheck, FiShield, FiHome, FiAlertCircle, FiFileText, FiUsers, FiBriefcase, FiEdit3 } from 'react-icons/fi'
+import { MdGavel, MdAccountBalance } from 'react-icons/md'
+import { HiDocumentText } from 'react-icons/hi'
+import { BsPassport } from 'react-icons/bs'
 
 export default function Services() {
   const { t } = useTranslation('common')
@@ -22,7 +25,7 @@ export default function Services() {
     },
     {
       id: 'court-support',
-      icon: <FiAward className="w-8 h-8" />,
+      icon: <MdGavel className="w-8 h-8" />,
       title: t('services.courtSupport.title'),
       summary: t('services.courtSupport.summary'),
       color: 'from-purple-500 to-purple-600'
@@ -36,14 +39,14 @@ export default function Services() {
     },
     {
       id: 'immigration',
-      icon: <FiUsers className="w-8 h-8" />,
+      icon: <BsPassport className="w-8 h-8" />,
       title: t('services.immigration.title'),
       summary: t('services.immigration.summary'),
       color: 'from-indigo-500 to-indigo-600'
     },
     {
       id: 'government',
-      icon: <FiFileText className="w-8 h-8" />,
+      icon: <MdAccountBalance className="w-8 h-8" />,
       title: t('services.government.title'),
       summary: t('services.government.summary'),
       color: 'from-yellow-500 to-yellow-600'
@@ -64,7 +67,7 @@ export default function Services() {
     },
     {
       id: 'documentation',
-      icon: <FiEdit3 className="w-8 h-8" />,
+      icon: <HiDocumentText className="w-8 h-8" />,
       title: t('services.documentation.title'),
       summary: t('services.documentation.summary'),
       color: 'from-pink-500 to-pink-600'
