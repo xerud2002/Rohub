@@ -16,7 +16,7 @@ export default function Pricing() {
       />
       
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/5 via-white to-primary/10 py-16">
+      <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900">
             {t('pricing.title')}
@@ -28,7 +28,7 @@ export default function Pricing() {
       </section>
 
       {/* Hourly Rates */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gray-900">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900">{t('pricing.hourlyRates.title')}</h2>
@@ -72,7 +72,7 @@ export default function Pricing() {
       </section>
 
       {/* Fixed Fee Services */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-800">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900">{t('pricing.feeServices.title')}</h2>
@@ -132,7 +132,7 @@ export default function Pricing() {
       </section>
 
       {/* Court Support Pricing */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gray-900">
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900">{t('pricing.courtSupport.title')}</h2>
@@ -165,7 +165,7 @@ export default function Pricing() {
       </section>
 
       {/* Monthly Subscription */}
-      <section className="py-16 bg-gradient-to-br from-primary/10 to-primary/5">
+      <section className="py-16 bg-gray-800">
         <div className="max-w-4xl mx-auto px-4">
           <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12 border-2 border-primary">
             <div className="text-center mb-8">

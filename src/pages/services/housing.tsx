@@ -15,7 +15,7 @@ export default function Housing() {
         description={t('services.housing.summary')}
       />
       
-      <section className="bg-gradient-to-br from-green-500/10 to-green-600/5 py-16">
+      <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-16">
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex items-center gap-4 mb-6">
             <div className="p-4 bg-gradient-to-br from-green-500 to-green-600 text-white rounded-2xl">
@@ -31,7 +31,7 @@ export default function Housing() {
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gray-900">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Serviciile Noastre</h2>
           
@@ -87,7 +87,7 @@ export default function Housing() {
         </div>
       </section>
 
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-800">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Prețuri</h2>
           <div className="grid md:grid-cols-2 gap-6">
@@ -105,7 +105,7 @@ export default function Housing() {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-br from-green-500 to-green-600 text-white">
+      <section className="py-16 bg-gray-900 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Probleme cu proprietarul sau agenția?</h2>
           <p className="text-xl mb-8 text-green-100">Te ajutăm să-ți cunoști și să-ți aperi drepturile ca chiriași!</p>

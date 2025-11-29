@@ -3,7 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 import Layout from '../components/Layout'
 import { NextSeo } from 'next-seo'
-import { FiMapPin, FiPhone } from 'react-icons/fi'
+import { FiMapPin, FiPhone, FiZap } from 'react-icons/fi'
 
 export default function BookingPage() {
   const { t } = useTranslation('common')
@@ -28,61 +28,92 @@ export default function BookingPage() {
           </div>
 
           {/* Booking Options */}
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
             {/* In-Person Booking */}
-            <div className="bg-gray-800 rounded-2xl shadow-xl p-8 border-2 border-gray-700 hover:border-primary-500 transition-all">
-              <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 text-white rounded-xl mb-6 mx-auto">
+            <div className="bg-gray-800 rounded-2xl shadow-xl p-6 lg:p-8 border-2 border-gray-700 hover:border-primary-500 transition-all flex flex-col h-full">
+              <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 text-white rounded-xl mb-4 mx-auto">
                 <FiMapPin className="w-8 h-8" />
               </div>
-              <h2 className="text-2xl font-bold text-white text-center mb-4">
+              <h2 className="text-xl lg:text-2xl font-bold text-white text-center mb-3">
                 Programare la Birou
               </h2>
-              <p className="text-gray-300 text-center mb-6">
+              <p className="text-gray-300 text-center mb-4 text-sm lg:text-base">
                 Vizită la sediul nostru pentru o consultanță față în față
               </p>
-              <div className="bg-gray-900 rounded-lg p-4 mb-6 text-sm text-gray-300 border border-gray-700">
-                <p className="font-semibold mb-2 text-primary-400">📍 Adresa:</p>
-                <p>Unit 1 Hollies Way, High St</p>
-                <p>Potters Bar EN6 5BH</p>
-                <p className="mt-3 font-semibold text-primary-400">🕒 Program:</p>
-                <p>Luni - Vineri: 09:00 - 18:00</p>
-                <p>Sâmbătă: 09:00 - 12:00</p>
+              <div className="bg-gray-900 rounded-lg p-3 lg:p-4 mb-4 text-sm text-gray-300 border border-gray-700 flex-grow">
+                <p className="font-semibold mb-1 text-primary-400">📍 Adresa:</p>
+                <p className="text-xs lg:text-sm">Unit 1 Hollies Way, High St</p>
+                <p className="text-xs lg:text-sm">Potters Bar EN6 5BH</p>
+                <p className="mt-2 font-semibold text-primary-400">🕒 Program:</p>
+                <p className="text-xs lg:text-sm">Luni - Vineri: 09:00 - 18:00</p>
+                <p className="text-xs lg:text-sm">Sâmbătă: 09:00 - 12:00</p>
               </div>
               <a
                 href="tel:+441707659955"
-                className="w-full block text-center bg-primary-500 hover:bg-primary-600 text-white px-6 py-4 rounded-lg font-semibold transition-all shadow-lg hover:shadow-primary-500/50"
+                className="w-full block text-center bg-primary-500 hover:bg-primary-600 text-white px-4 py-3 lg:px-6 lg:py-4 rounded-lg font-semibold transition-all shadow-lg hover:shadow-primary-500/50 text-sm lg:text-base mt-auto"
               >
                 Sună Acum pentru Programare
               </a>
             </div>
 
             {/* Online Booking */}
-            <div className="bg-gray-800 rounded-2xl shadow-xl p-8 border-2 border-gray-700 hover:border-blue-500 transition-all">
-              <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-xl mb-6 mx-auto">
+            <div className="bg-gray-800 rounded-2xl shadow-xl p-6 lg:p-8 border-2 border-gray-700 hover:border-blue-500 transition-all flex flex-col h-full">
+              <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-xl mb-4 mx-auto">
                 <FiPhone className="w-8 h-8" />
               </div>
-              <h2 className="text-2xl font-bold text-white text-center mb-4">
+              <h2 className="text-xl lg:text-2xl font-bold text-white text-center mb-3">
                 Consultanță Online
               </h2>
-              <p className="text-gray-300 text-center mb-6">
+              <p className="text-gray-300 text-center mb-4 text-sm lg:text-base">
                 Discuție telefonică sau video call de unde te afli
               </p>
-              <div className="bg-gray-900 rounded-lg p-4 mb-6 text-sm text-gray-300 border border-gray-700">
-                <p className="font-semibold mb-2 text-blue-400">💻 Ce primești:</p>
-                <p>✓ Consultanță telefonică completă</p>
-                <p>✓ Flexibilitate maximă</p>
-                <p>✓ Fără deplasare necesară</p>
-                <p className="mt-3 font-semibold text-blue-400">🕒 Disponibilitate:</p>
-                <p>Luni - Vineri: 09:00 - 18:00</p>
-                <p className="text-red-400 font-semibold mt-2">
+              <div className="bg-gray-900 rounded-lg p-3 lg:p-4 mb-4 text-sm text-gray-300 border border-gray-700 flex-grow">
+                <p className="font-semibold mb-1 text-blue-400">💻 Ce primești:</p>
+                <p className="text-xs lg:text-sm">✓ Consultanță telefonică completă</p>
+                <p className="text-xs lg:text-sm">✓ Flexibilitate maximă</p>
+                <p className="text-xs lg:text-sm">✓ Fără deplasare necesară</p>
+                <p className="mt-2 font-semibold text-blue-400">🕒 Disponibilitate:</p>
+                <p className="text-xs lg:text-sm">Luni - Vineri: 09:00 - 18:00</p>
+                <p className="text-red-400 font-semibold mt-2 text-xs lg:text-sm">
                   *Consultanța online este nerambursabilă
                 </p>
               </div>
               <a
                 href="tel:+441707659955"
-                className="w-full block text-center bg-blue-500 hover:bg-blue-600 text-white px-6 py-4 rounded-lg font-semibold transition-all shadow-lg hover:shadow-blue-500/50"
+                className="w-full block text-center bg-blue-500 hover:bg-blue-600 text-white px-4 py-3 lg:px-6 lg:py-4 rounded-lg font-semibold transition-all shadow-lg hover:shadow-blue-500/50 text-sm lg:text-base mt-auto"
               >
                 Sună Acum pentru Programare
+              </a>
+            </div>
+
+            {/* Emergency Booking */}
+            <div className="bg-gray-800 rounded-2xl shadow-xl p-6 lg:p-8 border-2 border-orange-500 hover:border-orange-400 transition-all ring-2 ring-orange-500/30 flex flex-col h-full">
+              <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-orange-500 to-red-600 text-white rounded-xl mb-4 mx-auto animate-pulse">
+                <FiZap className="w-8 h-8" />
+              </div>
+              <h2 className="text-xl lg:text-2xl font-bold text-white text-center mb-3">
+                Consultanță Urgență
+              </h2>
+              <p className="text-gray-300 text-center mb-4 text-sm lg:text-base">
+                Asistență imediată pentru situații urgente
+              </p>
+              <div className="bg-gray-900 rounded-lg p-3 lg:p-4 mb-4 text-sm text-gray-300 border border-orange-600 flex-grow">
+                <p className="font-semibold mb-1 text-orange-400">⚡ Ce primești:</p>
+                <p className="text-xs lg:text-sm">✓ Răspuns în maxim 30 minute</p>
+                <p className="text-xs lg:text-sm">✓ Consultanță imediată telefonic</p>
+                <p className="text-xs lg:text-sm">✓ Disponibil 24/7</p>
+                <p className="text-xs lg:text-sm">✓ Prioritate maximă</p>
+                <p className="mt-2 font-semibold text-orange-400">🕒 Disponibilitate:</p>
+                <p className="text-orange-300 font-semibold text-xs lg:text-sm">NON-STOP - 24/7</p>
+                <p className="text-red-400 font-semibold mt-2 text-xs lg:text-sm">
+                  *Tarif majorat pentru urgențe
+                </p>
+              </div>
+              <a
+                href="tel:+441707659955"
+                className="w-full block text-center bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-4 py-3 lg:px-6 lg:py-4 rounded-lg font-semibold transition-all shadow-lg hover:shadow-orange-500/50 ring-2 ring-orange-400/50 text-sm lg:text-base mt-auto"
+              >
+                Sună Acum - URGENȚĂ
               </a>
             </div>
           </div>
