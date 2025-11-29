@@ -5,6 +5,19 @@ module.exports = {
   reactStrictMode: true,
   i18n,
   images: {
-    domains: ['rohub.co.uk', 's.w.org', 'res.cloudinary.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'rohub.co.uk',
+      },
+      {
+        protocol: 'https',
+        hostname: 's.w.org',
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+      },
+    ],
   },
 }

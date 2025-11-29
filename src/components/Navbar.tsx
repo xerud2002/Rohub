@@ -13,14 +13,14 @@ export default function Navbar() {
   return (
     <>
       {/* Top Bar with Contact Info */}
-      <div className="bg-primary-600 text-white py-2 text-sm">
+      <div className="bg-blue-600 text-white py-2 text-sm">
         <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-2">
           <div className="flex items-center gap-2 sm:gap-4 flex-wrap justify-center">
-            <a href="tel:+441707659955" className="flex items-center gap-1 sm:gap-2 hover:text-gray-200 transition text-xs sm:text-sm">
+            <a href="tel:+441707659955" className="flex items-center gap-1 sm:gap-2 hover:text-yellow-300 transition text-xs sm:text-sm font-semibold no-underline">
               <FiPhone className="text-sm sm:text-base" />
               <span>01707 659955</span>
             </a>
-            <a href="mailto:office@acteinuk.com" className="flex items-center gap-1 sm:gap-2 hover:text-gray-200 transition text-xs sm:text-sm">
+            <a href="mailto:office@acteinuk.com" className="flex items-center gap-1 sm:gap-2 hover:text-yellow-300 transition text-xs sm:text-sm font-semibold no-underline">
               <FiMail className="text-sm sm:text-base" />
               <span className="hidden sm:inline">office@acteinuk.com</span>
               <span className="sm:hidden">Email</span>
@@ -31,7 +31,7 @@ export default function Navbar() {
               href="https://www.tiktok.com/@acteinuk.com8" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:text-gray-200 transition"
+              className="flex items-center gap-2 hover:text-yellow-300 transition font-semibold"
               aria-label="TikTok RoHub"
             >
               <SiTiktok className="text-sm sm:text-base" />
@@ -40,7 +40,7 @@ export default function Navbar() {
               href="https://www.tiktok.com/@acteinuk.com4" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:text-gray-200 transition"
+              className="flex items-center gap-2 hover:text-yellow-300 transition font-semibold"
               aria-label="TikTok RoHub Alternative"
             >
               <SiTiktok className="text-sm sm:text-base" />
@@ -50,7 +50,7 @@ export default function Navbar() {
       </div>
       
       {/* Main Navigation */}
-      <header className="bg-white sticky top-0 z-40 shadow-lg border-b border-gray-200">
+      <header className="bg-white sticky top-0 z-40 shadow-lg">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image 
@@ -62,22 +62,22 @@ export default function Navbar() {
             priority
           />
         </Link>
-        <nav className="hidden md:flex gap-6 items-center text-gray-700">
-          <Link href="/services" className="hover:text-primary-600 transition-colors font-semibold">{t('nav.services')}</Link>
-          <Link href="/about" className="hover:text-primary-600 transition-colors font-semibold">{t('nav.about')}</Link>
-          <Link href="/pricing" className="hover:text-primary-600 transition-colors font-semibold">{t('nav.pricing')}</Link>
+        <nav className="hidden md:flex gap-6 items-center text-gray-800">
+          <Link href="/services" className="hover:text-blue-600 transition-colors font-semibold">{t('nav.services')}</Link>
+          <Link href="/about" className="hover:text-blue-600 transition-colors font-semibold">{t('nav.about')}</Link>
+          <Link href="/pricing" className="hover:text-blue-600 transition-colors font-semibold">{t('nav.pricing')}</Link>
           <LanguageSwitcher />
-          <Link href="/contact" className="bg-primary-500 hover:bg-primary-600 text-white px-6 py-2.5 rounded-lg shadow-lg transition-all font-semibold">{t('nav.getQuote')}</Link>
+          <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-lg shadow-lg transition-all font-semibold">{t('nav.getQuote')}</Link>
         </nav>
-        <button className="md:hidden text-2xl text-gray-700 hover:text-primary-600 transition-colors" onClick={() => setOpen(!open)} aria-label="menu">
+        <button className="md:hidden text-2xl text-gray-800 hover:text-blue-600 transition-colors" onClick={() => setOpen(!open)} aria-label="menu">
           {open ? <FiX /> : <FiMenu />}
         </button>
       </div>
       {open && (
-        <div className="md:hidden bg-white px-4 pb-4 border-t border-gray-200">
-          <Link href="/services" className="block py-2 text-gray-700 hover:text-primary-600 transition-colors font-semibold">{t('nav.services')}</Link>
-          <Link href="/about" className="block py-2 text-gray-700 hover:text-primary-600 transition-colors font-semibold">{t('nav.about')}</Link>
-          <Link href="/pricing" className="block py-2 text-gray-700 hover:text-primary-600 transition-colors font-semibold">{t('nav.pricing')}</Link>
+        <div className="md:hidden bg-gray-50 px-4 pb-4 border-t border-gray-200">
+          <Link href="/services" className="block py-2 text-gray-800 hover:text-blue-600 transition-colors font-semibold">{t('nav.services')}</Link>
+          <Link href="/about" className="block py-2 text-gray-800 hover:text-blue-600 transition-colors font-semibold">{t('nav.about')}</Link>
+          <Link href="/pricing" className="block py-2 text-gray-800 hover:text-blue-600 transition-colors font-semibold">{t('nav.pricing')}</Link>
           <div className="py-2">
             <LanguageSwitcher />
           </div>
