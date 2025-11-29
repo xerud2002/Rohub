@@ -16,7 +16,9 @@ export default function Hero() {
               🇷🇴 Vorbim limba ta | We speak Romanian
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-white">
-              {t('hero.title')}
+              <span className="text-red-500">{t('hero.titlePart1')}</span>{' '}
+              <span className="text-yellow-400">{t('hero.titlePart2')}</span>{' '}
+              <span className="text-blue-400">{t('hero.titlePart3')}</span>
             </h1>
             <p className="mt-5 md:mt-7 text-lg md:text-xl text-gray-300 leading-relaxed">
               {t('hero.subtitle')}
